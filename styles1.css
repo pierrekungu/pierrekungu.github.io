@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/back1.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.navigation {
+    height: 90px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.navigation ul{
+    font-size: 1rem;
+    font-weight: 400;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation ul li{
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s;
+ }
+
+ .navigation ul li a.active,
+ .navigation ul li a:hover {
+    background-color: #6f42c1;
+    border-radius: 2px;
+}
+
+.first{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.second{
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+
+h1{
+    color: #0dcaf0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.title{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-image: url(images/darkknight.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.title:hover{
+    transform: translateY(-10px);
+}
+
+.one{
+    background-image: url(images/darkknight.jpg);
+}
+
+.two{
+    background-image: url(images/topgun.jpg);
+}
+
+.three{
+    background-image: url(images/madmax.jpg);
+}
+
+.four{
+    background-image: url(images/365days.jpg);
+}
+
+.five{
+    background-image: url(images/godfather.jpg);
+}
+
+.six{
+    background-image: url(images/infinitywar.jpg);
+}
